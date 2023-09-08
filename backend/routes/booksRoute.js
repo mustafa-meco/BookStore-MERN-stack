@@ -143,4 +143,10 @@ router.get("/publishYear/:publishYear", async (request, response) => {
   }
 });
 
+// other ideas
+// https://www.freecodecamp.org/news/how-to-build-a-restful-api-with-node-js-and-express-js/
+// more routes ideas
+// https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/
+// suggest more ideas
+
 export default router;
