@@ -43,3 +43,15 @@ mongoose
   .catch((error) => {
     console.log(error);
   });
+
+// TODOs
+// 1. Add a route for updating a book
+// 2. Add a route for deleting a book
+// 3. Add a route for searching a book by title
+// 4. Add a route for searching a book by author
+// 5. Add a route for searching a book by publishYear
+// 6. Add a route for searching a book by title and author
+// 7. Add a route for searching a book by title and publishYear
+// 8. Add a route for searching a book by author and publishYear
+// 9. Add a route for searching a book by title, author and publishYear
+// 10. Add a route for searching a book by title, author and publishYear
