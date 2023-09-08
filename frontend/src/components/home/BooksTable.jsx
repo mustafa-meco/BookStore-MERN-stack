@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 import { AiOutlineEdit } from "react-icons/ai";
 import { BsInfoCircle } from "react-icons/bs";
 import { MdOutlineAddBox, MdOutlineDelete } from "react-icons/md";
+import BookModal from "./BookModal";
+import { useState } from "react";
+import { BiShow } from "react-icons/bi";
 
 const BooksTable = ({ books }) => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <table className="w-full border-separate border-spacing-2">
       <thead>
@@ -36,6 +40,10 @@ const BooksTable = ({ books }) => {
             </td>
             <td className="border border-slate-700 rounded-md text-center">
               <div className="flex justify-center gap-x-4">
+                <BiShow
+                  className="text-3xl text-blue-800 hover:text-black cursor-pointer"
+                  onClick={() => setShowModal(true)}
+                />
                 <Link to={`/books/details/${book._id}`}>
                   <BsInfoCircle className="text-green-800 text-2xl" />
                 </Link>
@@ -47,6 +55,9 @@ const BooksTable = ({ books }) => {
                 </Link>
               </div>
             </td>
+            {showModal && (
+              <BookModal book={book} onClose={() => setShowModal(false)} />
+            )}
           </tr>
         ))}
       </tbody>
