@@ -87,4 +87,16 @@ export const EditBook = () => {
   );
 };
 
+// TODOs for EditBook
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// other TODO for the EditBook page
+// 1. Add a modal to show book details
+// 2. Add a modal to confirm edit
+// 3. Add validation
+// 4. Add error handling
+
 export default EditBook;
