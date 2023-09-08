@@ -70,4 +70,23 @@ export const CreateBook = () => {
   );
 };
 
+// TODOs for CreateBook
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// other TODOs for CreateBook
+// 1. Add validation
+// 2. Add error handling
+// 3. Add loading indicator
+// 4. Add success message
+// 5. Add error message
+// 6. Add form reset
+// 7. Add form validation
+// 8. Add form validation error message
+// 9. Add form validation success message
+// 10. Add form validation error styling
+// 11. Add form validation success styling
+
 export default CreateBook;
