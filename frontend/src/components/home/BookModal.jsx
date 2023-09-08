@@ -40,4 +40,17 @@ const BookModal = ({ book, onClose }) => {
   );
 };
 
+// TODO: Add PropTypes
+// TODO: Add default props
+// TODO: Add tests
+// TODO: Add storybook
+// TODOs
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// 6. Add storybook
+// 7. Add tests
+
 export default BookModal;
