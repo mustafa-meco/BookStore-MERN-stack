@@ -42,4 +42,14 @@ const DeleteBook = () => {
   );
 };
 
+// TODOs for DeleteBook
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// other things to do
+// 1. Add a modal to confirm delete
+// 2. Add a modal to show book details
+
 export default DeleteBook;
