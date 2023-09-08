@@ -113,4 +113,19 @@ router.delete("/", async (request, response) => {
   }
 });
 
+// Route for Get All Books from database by author
+router.get("/author/:author", async (request, response) => {
+  try {
+    const { author } = request.params;
+    const books = await Book.find({ author: author });
+    return response.status(200).send({
+      count: books.length,
+      data: books,
+    });
+  } catch (error) {
+    console.log(error.message);
+    response.status(500).send({ message: error.message });
+  }
+});
+
 export default router;
