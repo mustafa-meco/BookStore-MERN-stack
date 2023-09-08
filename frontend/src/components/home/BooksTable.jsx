@@ -65,4 +65,16 @@ const BooksTable = ({ books }) => {
   );
 };
 
+// TODOs for BooksTable
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// other TODOs in html
+// 1. Add search bar
+// 2. Add pagination
+// 3. Add sorting
+// 4. Add filtering
+
 export default BooksTable;
