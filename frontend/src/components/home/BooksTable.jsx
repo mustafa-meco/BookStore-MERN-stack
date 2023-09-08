@@ -40,10 +40,10 @@ const BooksTable = ({ books }) => {
             </td>
             <td className="border border-slate-700 rounded-md text-center">
               <div className="flex justify-center gap-x-4">
-                <BiShow
+                {/* <BiShow
                   className="text-3xl text-blue-800 hover:text-black cursor-pointer"
                   onClick={() => setShowModal(true)}
-                />
+                /> */}
                 <Link to={`/books/details/${book._id}`}>
                   <BsInfoCircle className="text-green-800 text-2xl" />
                 </Link>
@@ -55,9 +55,9 @@ const BooksTable = ({ books }) => {
                 </Link>
               </div>
             </td>
-            {showModal && (
+            {/* {showModal && (
               <BookModal book={book} onClose={() => setShowModal(false)} />
-            )}
+            )} */}
           </tr>
         ))}
       </tbody>
