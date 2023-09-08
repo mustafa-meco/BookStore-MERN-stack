@@ -58,4 +58,27 @@ export const Home = () => {
   );
 };
 
+// TODOs for Home
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// ideas for Home page
+// 1. Add a search bar
+// 2. Add a filter by author
+// 3. Add a filter by publish year
+// 4. Add a filter by title
+// 5. Add a filter by id
+// other creative ideas
+// 1. Add a dark mode
+// 2. Add a light mode
+// 3. Add a toggle button for dark and light mode
+// 4. Add a toggle button for table and card view
+// 5. Add a toggle button for search bar
+// 6. Add a toggle button for filter by author
+// 7. Add a toggle button for filter by publish year
+// 8. Add a toggle button for filter by title
+// 9. Add a toggle button for filter by id
+
 export default Home;
