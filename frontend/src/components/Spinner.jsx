@@ -6,4 +6,11 @@ const Spinner = () => {
   );
 };
 
+// TODOs for Spinner
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+
 export default Spinner;
