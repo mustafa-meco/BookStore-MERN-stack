@@ -60,4 +60,29 @@ const ShowBook = () => {
   );
 };
 
+// TODOs for ShowBook
+// 1. Add PropTypes
+// 2. Add default props
+// 3. Add tests
+// 4. Add storybook
+// 5. Add styles
+// ideas for this page
+// 1. Add a button to edit this book
+// 2. Add a button to delete this book
+// 3. Add a button to go back to home page
+// 4. Add a button to go back to previous page
+// 5. Add a button to go to next page
+// other ideas
+// 1. Add a modal to show book details
+// 2. Add a modal to confirm delete
+// 3. Add a modal to confirm edit
+// 4. Add a modal to confirm go back
+// 5. Add a modal to confirm go to next page
+// 6. Add a modal to confirm go to previous page
+// 7. Add a modal to confirm go to home page
+// creative ideas for show book page
+// 1. Add a dark mode
+// 2. Add a light mode
+// 3. Add a toggle button for dark and light mode
+
 export default ShowBook;
