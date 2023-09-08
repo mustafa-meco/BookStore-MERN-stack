@@ -128,4 +128,19 @@ router.get("/author/:author", async (request, response) => {
   }
 });
 
+// Route for Get All Books from database by publishYear
+router.get("/publishYear/:publishYear", async (request, response) => {
+  try {
+    const { publishYear } = request.params;
+    const books = await Book.find({ publishYear: publishYear });
+    return response.status(200).send({
+      count: books.length,
+      data: books,
+    });
+  } catch (error) {
+    console.log(error.message);
+    response.status(500).send({ message: error.message });
+  }
+});
+
 export default router;
