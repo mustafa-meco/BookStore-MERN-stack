@@ -102,4 +102,15 @@ router.delete("/:id", async (request, response) => {
   }
 });
 
+// Route for Delete All Books from database
+router.delete("/", async (request, response) => {
+  try {
+    const result = await Book.deleteMany({});
+    return response.status(200).send({ message: "All books deleted" });
+  } catch (error) {
+    console.log(error.message);
+    response.status(500).send({ message: error.message });
+  }
+});
+
 export default router;
